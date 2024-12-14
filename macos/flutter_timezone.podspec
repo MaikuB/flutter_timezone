@@ -14,6 +14,7 @@ A new flutter plugin project.
   s.author           = { 'Your Company' => 'email@example.com' }
   s.source           = { :path => '.' }
   s.source_files = 'flutter_timezone/Sources/flutter_timezone/**/*.swift'
+  s.resource_bundles = {'flutter_timezone_privacy' => ['flutter_timezone/Sources/flutter_timezone/PrivacyInfo.xcprivacy']}
   s.dependency 'FlutterMacOS'
 
   s.platform = :osx, '10.11'
